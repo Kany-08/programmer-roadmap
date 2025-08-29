@@ -1,6 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { RoadmapForm } from './roadmap/roadmap-form/roadmap-form';
+import { RoadmapForm } from './components/roadmap/roadmap-form/roadmap-form';
+import { RoadmapList } from './components/roadmap/roadmap-list/roadmap-list';
 
 @Component({
   selector: 'app-root',
